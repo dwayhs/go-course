@@ -3,8 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var mandamentos [2]string
-	mandamentos[0] = "Amor"
-	mandamentos[1] = "Paz"
-	fmt.Println("Mandamentos: ", mandamentos)
+  numbers := [3]int {1, 2, 3}
+  fmt.Println("Numbers: ", numbers)
 }

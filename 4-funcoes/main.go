@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 // exemplo de função privada
-func Add(x int, y int) int {
+func Add(x, y int) int {
 	return x + y
 }
 

@@ -9,7 +9,7 @@ type Person struct {
 }
 
 func main() {
-	p := Person{
+	p := &Person{
 		Name:   "Wilson Júnior",
 		Age:    24,
 		Active: true,
